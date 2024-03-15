@@ -9,7 +9,7 @@ import org.junit.Test;
 import com.supermarket.ENTITY.DonHang;
 
 public class DonHangDAOTest {
-
+	//test
 	private DonHangDAO dao;
 	
 	@Before
