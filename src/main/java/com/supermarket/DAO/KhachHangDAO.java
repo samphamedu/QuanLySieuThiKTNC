@@ -10,7 +10,7 @@ public class KhachHangDAO extends HeThongDAO<KhachHang, String> {
 
     String insert = "insert into KHACHHANG values(?,?,?,?,?,?)";
     String update = "update KHACHHANG set MAKH = ?, MATKHAU = ?, TENKH = ?, GIOITINH = ?, NGAYDANGKI = ?, NGAYSINH = ? where MAKH like ?";
-    String updatemk = "UPDATE NHANVIEN  SET MATKHAU = ? WHERE MANV = ?";
+    String updatemk = "UPDATE KHACHHANG  SET MATKHAU = ? WHERE MAKH = ?";
     String selectall = "select * from KHACHHANG";
     String selectid = "select * from KHACHHANG where MAKH = ?";
 
